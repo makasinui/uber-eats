@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosarivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	max-width: 1920px;
+	max-height: 1080px;
+	background: #414141;
+
+}
+
+main{
+	margin-top:200px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+
+.main-error{
+	display:flex;
+	margin:0 auto;
+}
+.text{
+	font-family: Rosarivo;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 72px;
+	line-height: 101px;
+	color:white;
+	position:relative;
+	z-index:0;
+	margin-right:-120px;
+	margin-top:60px;
+  	background: linear-gradient(crimson, gold, yellowgreen, teal, crimson);
+  	border: 5px solid white;
+
+}
+
+.text-2{
+	font-family: 'Ruslan Display';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 56px;
+	line-height: 67px;
+	color: #FFFFFF;
+	margin:0 auto;
+	margin-top:20px;
+}
+
+img{
+	width: 294px;
+	height: 294px;
+	z-index:5;
+}
+
+button{
+
+	background-color:white;
+	font-family: 'Rosarivo';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 51px;
+	margin:0 auto;
+	width: 26%;
+}
+
