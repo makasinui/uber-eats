@@ -56,15 +56,8 @@ img{
 	z-index:5;
 }
 
-button{
-
-	background-color:white;
-	font-family: 'Rosarivo';
-	font-style: normal;
-	font-weight: normal;
-	font-size: 36px;
-	line-height: 51px;
-	margin:0 auto;
+a{
+	margin: 0 auto;
 	width: 26%;
 }
 
